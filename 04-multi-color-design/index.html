@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Color Design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        :root{
+            --primary-color: rgb(73, 167, 167);
+            --secondary-color: rgb(168, 247, 247);
+        }
+
+        /* :root{
+            --primary-color: rgb(73, 167, 89);
+            --secondary-color: rgb(168, 247, 192);
+        } */
+
+        /* :root{
+            --primary-color: rgb(167, 73, 73);
+            --secondary-color: rgb(247, 168, 168);
+        } */
+
+        /* :root{
+            --primary-color: rgb(144, 73, 167);
+            --secondary-color: rgb(247, 168, 247);
+        } */
+
+        body{
+            background-color: var(--secondary-color);
+        }
+
+        nav{
+            background-color: var(--primary-color);
+            padding: 12px 0px;
+        }
+
+        ul li{
+            list-style: none;
+            display: inline;
+            padding: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+            font-weight: 600;
+            
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: rgb(9, 13, 13);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
