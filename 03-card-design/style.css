@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+
+.box{
+    background: #ffffff;
+    border: 2px solid rgb(34, 239, 236);
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+}
+
+.image{
+    padding: 2px;
+}
+
+.box img{
+    border-radius: 10px;
+}
+
+.tags{
+    padding: 2px 10px;
+}
+
+span{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.content{
+    font-family: 'Poppins','Consolas';
+    padding: 4px;
+}
+
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background: #b3ddea;
+    color: blue;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+.button button:hover{
+    background: #93d4e7;
+    color: blue;
+    cursor: pointer;
+}
