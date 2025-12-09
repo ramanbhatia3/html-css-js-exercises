@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px;
+            background: whitesmoke;
+        }
+        .right ul{
+            display: flex;
+            gap: 34px;
+        }
+        .right ul li{
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            gap: 10px;
+            margin: 15px;
+
+            font-size: 25px;
+        }
+
+        .main button{
+            padding: 3px;
+            border: 1px solid rgb(0, 102, 255);
+            border-radius: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 5px;
+            background-color: rgba(103, 151, 223, 0.591);
+            cursor: pointer;
+        }
+
+        .main button:hover{
+            background: rgba(70, 115, 182, 0.591);
+        }
+
+        .grid{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            gap: 20px;
+        }
+
+        .box{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            border: 1px solid brown;
+            text-align: center;
+            padding: 40px 70px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .parent{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+
+        @media screen and (max-width: 600px){
+            .parent{
+                grid-template-columns: 1fr;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Practice Session
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Products</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="main">
+                <h2>Hi, My name is Ramandeep Bhatia.</h2>
+                <p>I'm a MERN Stack Developer and currently I'm revising.</p>
+                <button>GitHub Profile</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="grid">
+                <h2>This is a grid practice</h2>
+                <div class="parent">
+                    <div class="box">
+                        <p>Box1</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box2</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box3</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box4</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box5</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box6</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box7</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box8</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box9</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="box">
+                        <p>Box10</p>
+                        <button>Button</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
